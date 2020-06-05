@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-
+// localhost/folder_name --> Here,folder_name refers to the name of the folder where the github repository is saved.
 $config['base_url'] = 'http://localhost/todo';
 
 
