@@ -165,7 +165,10 @@ else{
                         </div>
                     </div>
                     <script>
-                        let tasks = [<?php echo json_encode($tasks);?>][0];                        
+                        let tasks = [<?php echo json_encode($tasks);?>][0]; 
+                        if(!tasks.length){
+                            tasks = [];
+                        }                                               
                         $("#add_btn").click(function(){    
                             var lab = $("#add_label").val();
                             if(lab == "others"){
@@ -180,7 +183,7 @@ else{
                                     'label' : lab,
                                 },
                                 success: function(data){
-                                    console.log(data);
+                                    // console.log(tasks);
                                     data = JSON.parse(data);
                                     var new_data  = {
                                         id : data.id,

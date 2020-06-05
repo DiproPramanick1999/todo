@@ -120,14 +120,12 @@ if($user['id']!=""){
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <label class="dipro" for="first_name">First Name</label>
-                                                            <?php //echo form_error("userid"); ?>
                                                             <input class="form-control" type="text" name="first_name" id="first_name" placeholder="Enter First Name"required>
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <label for="last_name">Last Name</label>
-                                                            <?php// echo form_error("password"); ?>
                                                             <input class="form-control" type="text" name="last_name" id="last_name" placeholder="Enter Last Name" required>
                                                         </div>
                                                     </div>
@@ -145,7 +143,6 @@ if($user['id']!=""){
                                                     <div class="col-sm-12">
                                                         <div class="form-group">
                                                             <label for="phone_no">Phone Number</label>
-                                                            <?php //echo form_error("userid"); ?>
                                                             <input class="form-control" type="number" name="phone_no" id="phone_no" placeholder="Enter Phone Number"required>
                                                         </div>
                                                     </div>
@@ -154,7 +151,6 @@ if($user['id']!=""){
                                                     <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <label for="password">Password</label>
-                                                            <?php //echo form_error("userid"); ?>
                                                             <input class="form-control" type="password" name="password" id="password" placeholder="Enter Password"required>
                                                         </div>
                                                     </div>
